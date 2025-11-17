@@ -43,11 +43,11 @@ dev = [
 Homepage = "https://github.com/talmolab/sleap-anipose"
 
 [project.scripts]
-slap-calibrate = "sleap_anipose.calibration:calibrate_cli"
-slap-triangulate = "sleap_anipose.triangulation:triangulate_cli"
-slap-write_board = "sleap_anipose.calibration:write_board_cli"
-slap-draw_board = "sleap_anipose.calibration:draw_board_cli"
-slap-reproject = "sleap_anipose.triangulation:reproject_cli"
+sleap-calibrate = "sleap_anipose.calibration:calibrate_cli"
+sleap-triangulate = "sleap_anipose.triangulation:triangulate_cli"
+sleap-write_board = "sleap_anipose.calibration:write_board_cli"
+sleap-draw_board = "sleap_anipose.calibration:draw_board_cli"
+sleap-reproject = "sleap_anipose.triangulation:reproject_cli"
 
 [tool.setuptools.dynamic]
 version = { attr = "sleap_anipose.__version__" }
